@@ -1,3 +1,5 @@
+'use strict'
+
 let test = () => {
 	try {
 		let items = {

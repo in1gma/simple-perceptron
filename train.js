@@ -1,3 +1,5 @@
+'use strict'
+
 var train = (perceptron, epochs, learningRate, actFunc, items) => {
 	for (let i = 0; i < epochs; i++) {
 		for (let [data, actual] of Object.entries(items)) {
