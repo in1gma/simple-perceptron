@@ -4,7 +4,6 @@ var train = (perceptron, epochs, learningRate, actFunc, items) => {
 			let expected = perceptron.process(data, actFunc)
 			let delta = expected - actual
 			perceptron.adjust(data, delta, learningRate)
-			console.log(delta)
 		}
 	}
 }
