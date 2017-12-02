@@ -25,3 +25,8 @@ class Perceptron {
 		this._bias += learningRate * delta
 	}
 }
+
+// activate by Heaviside Step function
+var heaviside = value => {
+	return value < 0 ? 0 : 1
+}
